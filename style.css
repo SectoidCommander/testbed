@@ -62,7 +62,6 @@ nav ul li+li {
 
 .hover-link:hover {
     color: var(--hover-color);
-    cursor: pointer;
 }
 
 .container {
