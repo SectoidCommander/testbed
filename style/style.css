@@ -119,11 +119,14 @@ article p {
 
 .thumbnail-article figcaption {
     font-size: .5rem;
-    margin: 0;
     border: 1px solid var(--secondary-background-color);
     padding: 10px 25px 10px 25px;
     box-shadow: var(--shadow-values);
-    width: 75%;
+    
+    /* NB width and margin auto combine to center the element*/
+    width: 75%;  
+    margin: 0 auto;
+    
     z-index: 1;
     background-color: var(--background-color);
 }
