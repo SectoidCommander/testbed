@@ -81,6 +81,7 @@ h1 {
     font-family: audiowide;
     text-align: center;
     margin: 20px 0px 10px;
+    font-size: 2rem;
 }
 
 .label {
@@ -91,7 +92,7 @@ article {
     font-size: .60rem;
     margin: 10px 25px 15px;
     border: 1px solid var(--secondary-background-color);
-    padding: 10px 25px 0px 25px;
+    padding: 10px 25px 15px 25px;
     box-shadow: var(--shadow-values);
 }
 
@@ -110,11 +111,12 @@ article p {
 }
 
 .thumbnail-article img {
-    width: 500px;
+    max-width: 500px;
 }
 
 .thumbnail-article figure {
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 5px 0;
+    position: relative;
 }
 
 .thumbnail-article figcaption {
@@ -122,12 +124,17 @@ article p {
     border: 1px solid var(--secondary-background-color);
     padding: 10px 25px 10px 25px;
     box-shadow: var(--shadow-values);
+
+    position: absolute;
+    left: 10px;
+    bottom: 63px;
     
     /* NB width and margin auto combine to center the element*/
-    width: 75%;  
-    margin: 0 auto;
     
-    z-index: 1;
+    width: 75%;  
+    margin: -50px auto;
+
+    z-index: 2;
     background-color: var(--background-color);
 }
 
@@ -138,10 +145,11 @@ article p {
 footer {
     background-color: var(--secondary-background-color);
     color: var(--secondary-font-color);
-    padding: 1px;
+    
 }
 
 footer ul {
+    padding: 10px 15px;
     list-style-type: none;
     font-size: .5rem;
 }
