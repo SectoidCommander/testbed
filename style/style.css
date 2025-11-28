@@ -81,8 +81,9 @@ nav ul li+li {
     background-image: url(../images/green_vista.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: -150px; 
     height: 300px;
-    margin: 0px -20px;
+    margin: 0px -20px 30px;
     display: flex;
     align-items: flex-end;
 }
@@ -91,8 +92,8 @@ h1 {
     font-family: audiowide;
     color: var(--secondary-font-color);
     text-align: center;
-    margin: 20px 0px 10px;
-    font-size: 2rem;
+    margin: 20px 0px 10px 10px;
+    font-size: 3rem;
 }
 
 h2 {
