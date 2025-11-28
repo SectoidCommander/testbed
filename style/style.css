@@ -84,6 +84,13 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: .75rem;
+}
+
 .label {
     font-weight: 700;
 }
@@ -96,10 +103,13 @@ section, article {
     box-shadow: var(--shadow-values);
 }
 
-section.parent_secction {
+.article_container {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     gap: 10px;
+
 }
 
 section article.inline {
