@@ -88,13 +88,23 @@ h1 {
     font-weight: 700;
 }
 
-article {
+section, article {
     font-size: .60rem;
     margin: 10px 25px 15px;
     border: 1px solid var(--secondary-background-color);
     padding: 10px 25px 15px 25px;
     box-shadow: var(--shadow-values);
 }
+
+section.parent_secction {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+section article.inline {
+    margin: 0;
+} 
 
 article .date {
     font-weight: 700;
