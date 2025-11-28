@@ -77,8 +77,19 @@ nav ul li+li {
     border: 2px solid #000000;
 }
 
+.hero-image {
+    background-image: url(../images/green_vista.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0px -20px;
+    display: flex;
+    align-items: flex-end;
+}
+
 h1 {
     font-family: audiowide;
+    color: var(--secondary-font-color);
     text-align: center;
     margin: 20px 0px 10px;
     font-size: 2rem;
@@ -109,7 +120,6 @@ section, article {
     display: flex;
     justify-content: center;
     gap: 10px;
-
 }
 
 section article.inline {
