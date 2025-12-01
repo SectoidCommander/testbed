@@ -7,6 +7,11 @@
     --shadow-values: 1px 1px 5px;
 }
 
+@font-face {
+    font-family: "story script";
+    src: url("../fonts/StoryScript-Regular.ttf") format("truetype");
+}
+
 * {
     border-color: #ff0000;
     border: 1px solid red;
@@ -20,6 +25,7 @@ html
 body {
     margin: 0px;
     background-color: var(--margin-color);
+    /* background-image: url("../images/lush_background.jpg"); */
 }
 
 main {
